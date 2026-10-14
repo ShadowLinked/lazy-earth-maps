@@ -394,9 +394,9 @@ def main():
         print("\n" + "=" * 65)
         print("                 SUCCESSFULLY PUBLISHED!")
         print("=" * 65)
-        print(f"📦 GitHub Release:    https://github.com/{GITHUB_REPO}/releases/tag/v{version}")
-        print(f"⬇️ Direct Download:   https://github.com/{GITHUB_REPO}/releases/download/v{version}/lazy_earth_maps.zip")
-        print(f"🌐 QGIS Repo XML URL: https://raw.githubusercontent.com/{GITHUB_REPO}/main/plugins.xml")
+        print(f"[*] GitHub Release:    https://github.com/{GITHUB_REPO}/releases/tag/v{version}")
+        print(f"[*] Direct Download:   https://github.com/{GITHUB_REPO}/releases/download/v{version}/lazy_earth_maps.zip")
+        print(f"[*] QGIS Repo XML URL: https://raw.githubusercontent.com/{GITHUB_REPO}/main/plugins.xml")
         print("=" * 65)
 
 
