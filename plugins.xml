@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <pyqgis_plugin name="Lazy Earth &amp; Maps" version="3.2.0">
+    <description>Open your QGIS view or layers in Google Maps, Street View and Google Earth - with live Street View coverage and quick plugin settings.</description>
+    <version>3.2.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <author_name>Lazy by Design (Sheldon Willie)</author_name>
+    <download_url>https://github.com/ShadowLinked/lazy-earth-maps/releases/download/v3.2.0/lazy_earth_maps.zip</download_url>
+    <file_name>lazy_earth_maps.zip</file_name>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
+</plugins>

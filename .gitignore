@@ -1,0 +1,13 @@
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+_tmp_*
+.token
+*.token

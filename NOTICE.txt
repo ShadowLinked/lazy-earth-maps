@@ -1,0 +1,14 @@
+Lazy Earth & Maps
+Copyright (C) 2026 Lazy by Design (Sheldon Willie)
+
+This plugin is a derivative work of "Open Google Maps" by Harry King
+(https://github.com/harrydking/qgis-open-google-maps), distributed under the GNU General
+Public License. Because of that, this derivative is also released under the GPL
+(version 2 or, at your option, any later version), and the upstream copyright
+attribution must be kept.
+
+ACTION NEEDED before publishing: copy the full GPL text from the upstream repository's
+LICENSE file into a file named LICENSE in this folder.
+
+"Google", "Google Maps", "Google Street View", and "Google Earth" are trademarks of Google LLC.
+This project is an independent tool for QGIS and is not affiliated with or endorsed by Google LLC.

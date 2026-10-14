@@ -1,0 +1,36 @@
+[general]
+name=Lazy Earth & Maps
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=Open your QGIS view or layers in Google Maps, Street View and Google Earth - with live Street View coverage and quick plugin settings.
+version=3.2.0
+author=Lazy by Design (Sheldon Willie)
+email=
+
+about=Focused on Google Maps, Street View, and Google Earth.
+	Google Maps: roadmap / satellite / terrain, Street View at centre or any clicked point, drop a pin, copy link. Zoom is latitude-corrected, and the view fits your selected features when there is a selection.
+	Street View Coverage: Toggle a live, free visual overlay showing real Google Street View coverage (blue lines) directly in your QGIS canvas!
+	Google Earth: fly to the current view (rotation + tilt aware) and send the active layer, the selected features, or all visible vector layers as styled KMZ/KML with attribute pop-ups. Opens straight in Google Earth Pro if installed; otherwise a guided Earth Web hand-off.
+	Settings: Accessible directly from Plugins > Lazy Earth & Maps > Settings... and Settings > Options > Lazy Earth & Maps.
+	Derived from "Open Google Maps" by Harry King (GPL). See NOTICE.txt.
+
+tracker=https://github.com/ShadowLinked/lazy-earth-maps/issues
+repository=https://github.com/ShadowLinked/lazy-earth-maps
+homepage=https://github.com/ShadowLinked/lazy-earth-maps
+
+supportsQt6=True
+hasProcessingProvider=no
+
+changelog=
+	3.2.0: Official Google Maps, Street View & Google Earth icons. Reattributed author to Lazy by Design (Sheldon Willie). Direct Settings in Plugins menu. Removed first-run wizard popup for seamless out-of-the-box usage. Added visual Google Street View coverage overlay layer (free/public XYZ). Optimized vector export performance.
+	3.1.0: Settings page in Settings > Options > Lazy Earth & Maps. Separate toolbar buttons for Street View and view-only Open in Earth (no KML/KMZ). Toggle each button. PNG icons.
+	3.0.0: Rebrand by Lazy by Design. Focused on Google Maps + Earth. Setup wizard, layer/selection export to KMZ/KML, Street View picker, latitude-corrected zoom, rotation-aware Earth camera.
+	(Upstream 2.0 by Harry King supported six web maps.)
+
+tags=google maps, google earth, kml, kmz, street view, street view coverage, web mapping
+
+category=Web
+icon=img/icon.png
+experimental=True
+deprecated=False
+server=False
